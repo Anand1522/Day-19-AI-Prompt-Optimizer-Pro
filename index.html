@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+AI Prompt Optimizer
+</title>
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<header>
+
+<h1>
+
+🚀 AI Prompt Optimizer
+
+</h1>
+
+<p>
+
+Transform ordinary prompts into professional AI prompts.
+
+</p>
+
+</header>
+
+<div class="main-grid">
+
+<div class="left-panel">
+
+<h2>
+
+Your Prompt
+
+</h2>
+
+<textarea
+
+id="userPrompt"
+
+placeholder="Example:
+Explain Artificial Intelligence.">
+
+</textarea>
+
+<div class="controls">
+
+<label>
+
+Prompt Purpose
+
+</label>
+
+<select id="purpose">
+
+<option>
+
+Learning
+
+</option>
+
+<option>
+
+Coding
+
+</option>
+
+<option>
+
+Writing
+
+</option>
+
+<option>
+
+Business
+
+</option>
+
+<option>
+
+Research
+
+</option>
+
+<option>
+
+Marketing
+
+</option>
+
+</select>
+
+<label>
+
+Response Style
+
+</label>
+
+<select id="tone">
+
+<option>
+
+Professional
+
+</option>
+
+<option>
+
+Simple
+
+</option>
+
+<option>
+
+Detailed
+
+</option>
+
+<option>
+
+Beginner Friendly
+
+</option>
+
+<option>
+
+Creative
+
+</option>
+
+</select>
+
+<button
+
+onclick="optimizePrompt()">
+
+✨ Optimize Prompt
+
+</button>
+
+</div>
+
+</div>
+
+<div class="right-panel">
+
+<div class="card">
+
+<h3>
+
+📊 Prompt Quality
+
+</h3>
+
+<div
+
+id="score"
+
+class="score">
+
+0
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+🧠 AI Suggestions
+
+</h3>
+
+<ul id="suggestions">
+
+<li>
+
+Waiting...
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+🚀 Optimized Prompt
+
+</h3>
+
+<textarea
+
+id="optimizedPrompt"
+
+readonly>
+
+</textarea>
+
+</div>
+
+<div class="buttons">
+
+<button
+
+onclick="copyPrompt()">
+
+📋 Copy
+
+</button>
+
+<button
+
+onclick="downloadPrompt()">
+
+⬇ Download
+
+</button>
+
+<button
+
+onclick="resetPrompt()">
+
+🔄 Reset
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Day 19 • 30 Days 30 AI Websites Challenge
+
+</footer>
+
+</div>
+
+<script
+src="script.js">
+
+</script>
+
+</body>
+
+</html>
